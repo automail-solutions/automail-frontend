@@ -1,0 +1,13 @@
+/// <reference types="vite/client" />
+/// <reference types="react" />
+/// <reference types="react-dom" />
+
+interface ImportMetaEnv {
+  readonly VITE_API_BASE_URL: string
+  readonly VITE_ENVIRONMENT: string
+  readonly VITE_MAX_FILE_SIZE: string
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv
+}
