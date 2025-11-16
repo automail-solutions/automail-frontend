@@ -9,8 +9,9 @@
     }
   ],
   "env": {
-    "VITE_API_BASE_URL": "@vite_api_base_url",
+    "VITE_API_BASE_URL": "automail-backend-hc6j95myk-lucas-projects-cfd03082.vercel.app",
     "VITE_ENVIRONMENT": "production",
     "VITE_MAX_FILE_SIZE": "5242880"
-  }
+  },
+  "installCommand": "npm install"
 }
